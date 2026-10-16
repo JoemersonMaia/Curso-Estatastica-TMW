@@ -26,6 +26,15 @@ print("3_quartil: ", qaurtil_3)
 maximo = df["qtdPontos"].max()
 print("maximo: ", maximo)
 
+variancia = df["qtdPontos"].var()
+print("variancia:", variancia)
+
+desvio_padrao = df["qtdPontos"].std()
+print("desvio padrao:", desvio_padrao)
+
+amplitude = df["qtdPontos"].max() - df["qtdPontos"].min()
+print("amplitude:", amplitude)
+
 df["qtdPontos"].describe()
 
 # %%
