@@ -45,3 +45,25 @@ plt.title("Série Histótica de Transacoes")
 plt.legend(["Qtde. Transações"])
 
 # %%
+plt.hist(group_data["qtdPontos"], bins = 18, density=True)
+plt.xlabel("P0ntos")
+##plt.ylabel("Frequência")
+plt.show()
+
+# %%
+
+plt.boxplot(group_data["qtdPontos"])
+plt.title("Box-Plot")
+
+# %%
+plt.boxplot(df["qtdPontos"])
+plt.title("Box-Plot")
+
+# %%
+group_pontos = df.groupby("qtdPontos")["idTransacao"].count().reset_index()
+sns.barplot(group_pontos, x="qtdPontos", y= "idTransacao")
+plt.show()
+
+# %%
+
+sns.scatterplot(group_data, x= "qtdPontos", y = "idTransacao")
