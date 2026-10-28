@@ -91,16 +91,6 @@ O objetivo é consolidar a base teórica necessária para trabalhar com análise
 
 ---
 
-## Estrutura do repositório
-
-```text
-[INSERIR A ESTRUTURA REAL DO REPOSITÓRIO]
-```
-
-> Atualize este bloco conforme você adicionar anotações, exercícios ou arquivos de dados.
-
----
-
 ## Por que estudar estatística?
 
 A estatística é a base para transformar dados em informação útil. Os conceitos deste curso aparecem em análise de dados, ciência de dados, pesquisa e tomada de decisão, por exemplo ao resumir um conjunto de dados, escolher o gráfico adequado, medir incerteza ou comparar grupos.
